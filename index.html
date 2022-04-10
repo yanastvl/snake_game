@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="game__inner">
+    <canvas width="350" height="350" id="gameField"></canvas>
+    <div class="button__inner">
+      <button class="button" onclick="startPauseGame()" id="startPauseButton">Начать</button>
+      <button class="button" onclick="resetGame()" id="stopButton">Перезапустить</button>
+    </div>
+    <div class="text__inner">
+      <p class="game__text">Съедено яблок:</p>
+      <p id="score"></p>
+    </div>
+  
+  <script src="main.js"></script>
+</body>
+
+</html>

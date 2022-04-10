@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(255 255 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 3px solid rgb(4 4 4);
+}
+
+.game__inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+
+    width: 150px;
+    height: 30px;
+    background-color: white;
+}
+
+.button__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    font-size: 25px;
+    display:inline-block;
+}
